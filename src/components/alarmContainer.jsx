@@ -22,6 +22,7 @@ export default function AlarmContainer(props) {
     ]
 
     const handleEdit = (label, alarmTime, index) => {
+        // console.log("hello")
         props.onEdit(label, alarmTime, index)
     }
 
