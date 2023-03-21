@@ -23,7 +23,6 @@ const App = () => {
     return (i<10) ? '0'+i : i;
   }
 
-  // console.log(new Date().toLocaleTimeString('en-US', {hour12: false}))
 
   const [alarms, setAlarms] = React.useState(defaultAlarms)
 
